@@ -1,6 +1,5 @@
 package com.javaex.ex04;
 
-import com.javaex.ex01.Goods;
 
 public class SongApp {
 	public static void main(String[] args) {
