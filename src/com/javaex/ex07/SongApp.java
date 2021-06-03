@@ -40,7 +40,7 @@ public class SongApp {
 		Song test = new Song("타이틀", " artist", "album", "composer", 2000, 244);
 		
 		
-
+		
 		iu.showInfo();
 		/*bigbang.showInfo();
 		busker.showInfo();
