@@ -23,7 +23,6 @@ public class PersonApp {
 		p01.setAge(45);
 		
 		p01.showInfo();
-		
 			
 	}
 
