@@ -52,7 +52,7 @@ public class Rectangle {
 			this.height = height;
 		}
 		
-	//method-generel
+	//method-generic
 		@Override
 		public String toString() {
 			return "Rectangle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", width=" + width + ", height="
