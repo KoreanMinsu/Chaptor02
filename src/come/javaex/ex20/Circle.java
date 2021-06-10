@@ -1,20 +1,20 @@
-package come.javaex.ex19;
+package come.javaex.ex20;
 
-public class Circle extends Shape{
+public class Circle extends Shape implements Drawable{
 //field
 	private int radius;
 
 //constructor
 	
 	public Circle() {
-		super();
-		System.out.println("Circle()");
+		
+		//System.out.println("Circle()");
 	}
 	
 	public Circle(String fillColor, String lineColor, int radius) {
 		super(fillColor, lineColor);
 		this.radius = radius;
-		System.out.println("Circle(3)");
+		//System.out.println("Circle(3)");
 	}
 	
 //method-g/s	
@@ -28,13 +28,12 @@ public class Circle extends Shape{
 
 	@Override
 	public String toString() {
-		return "Circle [radius=" + radius + ", fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
+		return "Circle [radius=" + radius + "]";
 	}
 
 //method - generic
 	public void draw() {
-		System.out.println("[면색:" + fillColor + ", 선색:" + lineColor + 
-				           ", 반지름:" + radius + "] 원을 그렸습니다. " );
+		System.out.println("[면색: "+this.fillColor+", 선색: "+this.lineColor+ ", 반지름: "+ radius+"] 원을 그렸습니다.");
 	}
 	
 	public double area() {
