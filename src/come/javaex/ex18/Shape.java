@@ -8,14 +8,14 @@ public class Shape {
 
 	//constructor
 		public Shape() {
-			System.out.println("Shape()");
+			//System.out.println("Shape()");
 		}
 		
 		public Shape(String fillColor, String lineColor) {
 			super();
 			this.fillColor = fillColor;
 			this.lineColor = lineColor;
-			System.out.println("shape(2)");
+			//System.out.println("shape(2)");
 		}
 		
 	//method -g/s
@@ -45,5 +45,9 @@ public class Shape {
 	//method-generic
 		public void draw() {
 			System.out.println("[면색 : " + fillColor + ", 선색 : " + lineColor + "] 을 그렸습니당");
+		}
+		
+		public double area() {
+			return 0.0;
 		}
 }
